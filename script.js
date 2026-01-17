@@ -1,3 +1,7 @@
-const elementToStyle = document.getElementById("sign-up-link");
+const button = document.getElementById("sign-up-link");
+button.addEventListener("click", function() {
+    button.innerText = "Button Clicked!";
+    button.style.backgroundColor = "purple";
+    button.style.color = "white";
 
-elementToStyle.style.color = "purple";
+});
